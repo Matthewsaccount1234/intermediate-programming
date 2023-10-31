@@ -1,0 +1,12 @@
+public class Main {
+    public static void main(String[] args) throws Exception {
+    String [] gifts = {"A Hershey's bar", "packs of MnMs", "bags of Skittles", "Starbursts", "Pumpkin", "Ghosts", "Sour patches"};
+    for (int i=0; i< gifts.length; i++) {
+        System.out.println("On the " + i+1 + "of Halloween my true love gave to me")
+        for ( int x=0; x<0; x++ )
+            System.out.println(gifts[x])
+    }
+    }
+    }
+    
+    
