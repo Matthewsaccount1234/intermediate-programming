@@ -1,0 +1,13 @@
+public static void boroughCounts(ArrayList<ZipcodeInfo> zipcodes) {
+    ArrayList<String> boroughs = new ArrayList();
+    ArrayList<Integer> numZips = new ArrayList();
+    // go through each zipcode
+    // increment numZips for the specified borough
+    for (int i= 0; i < zipcodes.size(); i++ ){
+    // get the borough from the zipcode
+    ZipcodeInfo zipcode = zipcodes.get(i);
+    int index = boroughs.indexOf(zipcode.borough); // gives back 0-4, Bronx->SI
+    int count = numZips.get(index) + 1; // add to the current count
+    numZips.add(count);
+    }
+    }
